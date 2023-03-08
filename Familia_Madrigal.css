@@ -1,0 +1,271 @@
+/* font importing */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Pacifico", sans-serif;
+}
+
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url(./img/Familia_Wallpapers.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  
+}
+
+.title-wrapper-catalog {
+color: #0175a3;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 42px;
+
+}
+
+.content {
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+section .catalog {
+  width: 100vw;
+  padding: 100px;
+}
+
+.sobre{
+  text-align: justify;
+}
+
+.sobre2{
+  text-align: center;
+}
+
+
+section .personagens {
+  width: 980px;
+  height: 150px;
+  background: #f72cba;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  width: 700px;
+  height: 50px;
+  border: none;
+  border-radius: 4px 0px 0px 4px;
+  text-indent: 10px;
+}
+
+.search-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  background: #0175a3;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: 0.2s ease;
+}
+
+.search-button:hover {
+  background:#c0eafa;
+  color: #003349;
+}
+
+.title-wrapper-catalog {
+  margin-top: 200px;
+  padding-bottom: 20px;
+}
+
+section .card-wrapper {
+  max-width: 1000px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 30px;
+  padding-top: 50px;
+}
+
+section .card-item {
+  height: 580px;
+  background: rgba(2, 96, 158, 0.993);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-content {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#mirabel{
+  width: 48%;
+}
+
+#Luisa{
+width: 48%;
+padding-top: 10px;
+}
+#Dolores{
+  width: 58%;
+  padding-top: 10px;
+}
+#Camilo {
+  width: 48%;
+  padding-top: 10px;
+}
+
+#Antonio{
+  padding-top: 68px;
+}
+
+#JulitaeAgustin{
+  width: 148%;
+}
+
+#PepaeFelix{
+width: 60%;
+padding-top: 18px;
+}
+
+#Bruno{
+  width: 38%;
+  padding-top: 18px;
+}
+
+#Abuela{
+  width: 44%;
+  padding-top: 10px;
+
+}
+
+.card-item img {
+  width: 80%;
+
+}
+
+
+.card-item p {
+  width: 90%;
+  font-style:normal;
+  color: #000000;
+}
+
+.rodape {
+  width: 100%;
+  height: 50px;
+  background: orangered;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 576px) {
+  nav ul li {
+    display: none;
+  }
+
+  .header-block img {
+    width: 70%;
+    position: absolute;
+    right: 16%;
+    top: 30%;
+  }
+
+  .header-block .text {
+    position: absolute;
+    bottom: 10%;
+    left: 15;
+  }
+
+  section .filter-card {
+    width: 390px;
+    padding: 0px 10px;
+  }
+
+  .search-input {
+    max-width: 700px;
+    min-width: 240px;
+  }
+
+  .search-button {
+    max-width: 150px;
+    min-width: 80px;
+  }
+
+  .about {
+    margin-top: 100px;
+  }
+
+  .title-wrapper-about {
+    margin-bottom: 20px;
+  }
+  .about-content {
+    flex-direction: column;
+    height: 100%;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    width: 90%;
+  }
+
+  .right p {
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .features {
+    height: 100%;
+  }
+
+  .feature-card-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    height: 100%;
+  }
+
+  footer .main {
+    height: 100%;
+  }
+
+  
+} 
+
+

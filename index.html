@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="./img/DisneyIcon.png" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="reset.css">
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="responsivo.css">
+
+	<title> Encanto </title>
+</head>
+
+<body>
+	<div class="fundo-video">
+		<video class="video" autoplay loop muted>
+			<source id='video1' src="encanto_video.mp4" type="video/mp4" />
+		</video>
+	</div>
+
+	<header class="cabecalho">
+		<a>
+			<img class="logo" src="./img/Disney.png" alt="Logo da Disney" />
+		</a>
+		<nav>
+			<ul class="menu">
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="Familia_Madrigal.html">Detalhes</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<div class="informacoes">
+			<img class="imagem-titulo" src="./img/Encanto_Titulo.png" alt="imagem do título do filme" />
+			<p class="descricao"> Os Madrigal, uma familia extraordinária que vive em uma casa mágica nas montanhas da
+				Colômbia em um lindo lugar chamado Encanto. E quando a magia do local é ameaçada,Mirabel, a única pessoa
+				da família sem um dom mágico, pode ser a última esperança!</p>
+			<button class="botao-trailer">Veja o trailer</button>
+		</div>
+		<img class="Casa_Encanto" src="./img/Casa_Encato.png" />
+
+		<div class="modal">
+			<div class="conteudo-modal">
+				<span class="fechar-modal">X</span>
+				<iframe id="video" width="1437" height="819" src="https://www.youtube.com/embed/zRMicKd9IH8"
+					title="Encanto | Trailer Oficial Dublado" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+			</div>
+		</div>
+	</main>
+	<script src="index.js"></script>
+
+<footer class="rodape"> By: Cah Capel </footer>
+
+</body>
+
+</html>
